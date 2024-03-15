@@ -1,6 +1,5 @@
 import { Box, Button, Container, Dialog, Flex, Text, TextField } from "@radix-ui/themes";
 import {useState} from 'react';
-import { useWeb3ModalAccount } from "@web3modal/ethers/react";
 import { configureWeb3Modal } from "./connection";
 import "@radix-ui/themes/styles.css";
 import Header from "./component/Header";
@@ -129,7 +128,6 @@ function App() {
                                         <Text className="block">
                                             Description: {x.description}
                                         </Text>
-
                                                                                  
                                                 <Button
                                                     className="px-8 py-2 text-xl mt-2"
